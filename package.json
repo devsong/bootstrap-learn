@@ -1,0 +1,17 @@
+{
+  "name": "bootstrap-learn",
+  "version": "1.0.0",
+  "description": "bootstrap-learn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "guanzhisong",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.14.7",
+    "requirejs": "^2.3.6"
+  }
+}
