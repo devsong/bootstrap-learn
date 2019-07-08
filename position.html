@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        [class] {
+            display: block;
+            /* float: left; */
+            width: 100px;
+            min-height: 100px;
+            background-color: #694646;
+            color: rgb(255, 255, 255);
+        }
+
+        .position-static {
+            position: static;
+            background-color: rgb(41, 55, 116);
+        }
+
+        .position-relative {
+            position: relative;
+            background-color: rgb(49, 161, 161);
+            margin: 5px 100px;
+        }
+
+        .position-absolute {
+            display: block;
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            padding: 20px;
+            left: 10px;
+            /* top: 120px; */
+            background-color: #183d81fa;
+            text-align: center;
+            z-index: 1;
+        }
+
+        .position-fixed {
+            position: fixed;
+            background-color: #b48e8e;
+            left: 0;
+            bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="position-relative">relative块1</div>
+    <div class="position-relative">relative块2
+        <div class="position-absolute">absolute块</div>
+    </div>
+    <div class="position-static">static块</div>
+    <div class="position-fixed">fixed块</div>
+</body>
+
+</html>
