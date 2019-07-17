@@ -1,7 +1,3 @@
-body {
-    background-color: #cac8e2;
-}
-
 .main {
     background-color: #d9d8e9;
     min-height: 960px;
@@ -21,7 +17,6 @@ body {
     text-align: center;
     font-size: 14px;
     padding: 15px;
-    color: #ffffff;
     background-color: #373277;
 }
 
